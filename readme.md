@@ -55,30 +55,53 @@ Supports:
 
 ### 🔧 Installation
 
-1. Clone the repo:
-  git clone https://github.com/asim-builds/File-Share.git
-  cd python-file-share
+##### 1. Clone the repo:
+``` bash
+git clone https://github.com/asim-builds/File-Share.git
+cd File-Share
+```
 
-2. Install dependencies:
-  pip install -r requirements.txt
+##### 2. Install dependencies:
+    pip install -r requirements.txt
 
-3. Run the app:
-  python main.py
+##### 3. Run the app:
+    python main.py
+    
+### 📦 Packaging (Optional)
+###### You can convert the files into an .exe using the following:
+``` bash
+pip install pyinstaller
+pyinstaller --onefile main.py
+```
 
-📦 Packaging (Optional)
-You can convert this into an .exe or standalone app using:
-  pyinstaller --onefile app.py
+---
 
-🙌 Contributing
-Contributions, bug reports, and feature requests are welcome!
+## 🙌 Contributing
+We welcome contributions!
+Whether you're fixing bugs, adding features, or improving documentation, we appreciate your help.
 
-1. Fork the repo
+Recommended contribution workflow...
+``` bash
+git clone https://github.com/asim-builds/File-Share.git
+cd File-Share
 
-2. Create a new branch: git checkout -b feature-xyz
+# Install dependencies
+pip install -r requirements.txt
 
-3. Commit your changes: git commit -m 'Add new feature'
+# Create a new branch
+git checkout -b your-feature-branch
+```
 
-4. Push and open a Pull Request
+When you are ready to submit the PR...
+``` bash
+git add .
 
-📢 License
-MIT License – free to use, modify, and distribute.
+# Commit your changes
+git commit -m 'Add new feature'
+
+# Push and create a PR
+git push origin your-feature-branch
+```
+
+## 📢 License
+MIT [License](LICENSE) – free to use, modify, and distribute.
